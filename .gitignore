@@ -1,47 +1,20 @@
-# Dependencies
-/vendor/
-/composer.phar
 
-# Environment
+/vendor/
 .env
 .env.*
 !.env.example
 
-# Logs and cache
-*.log
-logs/
-log/
-tmp/
-temp/
-cache/
-storage/
-.phpunit.result.cache
+.vscode/
+.idea/
 
-# PHPUnit / Coverage
-phpunit.xml
-coverage/
-clover.xml
-
-# Uploads (если будут)
-public/uploads/
-
-# OS junk
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# IDE / Editor
-.idea/
-.vscode/
-*.code-workspace
-
-# Node (на всякий случай)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# DB files / dumps
-*.sqlite
-*.sqlite3
-*.sql
+Desktop.ini
+php_errors.log
+*.log
+/cache/
+/tmp/
+/logs/
+coverage/
+.phpunit.result.cache
+composer.phar
